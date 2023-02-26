@@ -119,7 +119,7 @@ class _loginPageState extends State<loginPage> {
               const SizedBox(height: 10),
               ElevatedButton(
                 onPressed: () {
-                  sendOTP();
+                  // sendOTP();
                   if (!emailSent) {
                     sendOTP();
                   } else {
